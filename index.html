@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Armed Detective Agency</title>
     <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <div class="header">
-        <header>
-            <h1>武装探偵社</h1>
-            <ul>
+    <div class="top">
+        <header class="header">
+            <h1 class="header-logo">武装探偵社</h1>
+            <ul class="header-list">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">Contact</a></li> 
@@ -19,32 +22,52 @@
         </header>
 
         <div class="hero">
-            <h1>Welcome to the Armed Detective Agency!</h1>
-            <p>Solving supernatural cases with unparalleled skill and determination. Join us in protecting Yokohama!</p>
-            <button>Become a Member</button>
-            <img src="./images/image of armed detective agency members" alt="image of armed detective agency members">
+            <div class="hero-text">
+                <h1 class="hero-main">Welcome to the Armed Detective Agency!</h1>
+                <p class="hero-second">Solving supernatural cases with unparalleled skill and determination. Join us in protecting Yokohama!</p>
+                <button class="button-top" type="button">Become a Member</button>
+            </div>
+            <div class="hero-img">
+                <img class="hero-img-self" src="./images/image of armed detective agency members.jpg" alt="image of armed detective agency members">
+            </div>
         </div>
     </div>
 
     <div class="members">
         <h2>Meet the Agency's Finest</h2>
-            <ul>
-                <li><img src="./images/atsushi.jpg" alt="atsushi icon">Beast Beneath the Moonlight: Transforms into a white tiger.</li>
-                <li><img src="/images/dazai.jpg" alt="dazai icon">No Longer Human: Nullifies other abilities on contact.</li>
-                <li><img src="/images/doppo.jpg" alt="doppo icon">The Matchless Poet: Brings his ideals to life through his ability.</li>
-                <li><img src="/images/yosano.jpg" alt="yosano icon">Thou Shalt Not Die: Heals allies and devastates enemies.</li>
-            </ul>
+        <div class="memcontainer">
+            <div class="memlist">
+                <div class="memname">Atsushi Nakajima</div>
+                <img class="atsimg" src="./images/atsushi.jpg" alt="atsushi icon"><div class="memtext">Beast Beneath the Moonlight: <i>Transforms into a white tiger.</i></div>
+            </div>
+            <div class="memlist">
+                <div class="memname">Osamu Dazai</div>
+                <img class="dazimg" src="/images/dazai.jpg" alt="dazai icon"><div class="memtext">No Longer Human: <i>Nullifies other abilities on contact.</i></div>
+            </div>
+            <div class="memlist">
+                <div class="memname">Doppo Kunikida</div>
+                <img class="dopimg" src="/images/doppo.jpg" alt="doppo icon"><div class="memtext">The Matchless Poet: <i>Brings his ideals to life through his ability.</i></div>
+            </div>
+            <div class="memlist">
+                <div class="memname">Akiko Yosano</div>
+                <img class="yosimg" src="/images/yosano.jpg" alt="yosano icon"><div class="memtext">Thou Shalt Not Die: <i>Heals allies and devastates enemies.</i></div>
+            </div>
+        </div>
     </div>
 
     <div class="quote">
-        <div class="q">I always lose the things I don't want to lose the most. That's why I don't feel anything anymore. The moment you get your hands on something worth going after, you lose it. That's just how things are. There is nothing worth pursuing at the cost of prolonging a life of suffering.</div>
-        <div class="qer">Osamu Dazai</div>
+        <div class="q">I always lose the things I don't want to lose the most. That's why I don't feel anything anymore. The moment you get your hands on something worth going after, you lose it. That's just how things are. There is nothing worth pursuing at the cost of prolonging a life of suffering. <div class="qer">-Osamu Dazai</div></div>
+    
     </div>
 
     <div class="recruit">
-        <h4>Ready to fight for justice? It's time!</h4>
-        <p>Click the button and join the Armed Detective Agency today!</p>
-        <button>Apply Here</button>
+        <div class="rectext">
+            <h4>Ready to fight for justice? It's time!</h4>
+            <p>Click the button and join the Armed Detective Agency today!</p>
+        </div>
+        <div class="recbutton">
+            <button>Apply Here</button>
+        </div>
     </div>
 
     <div class="footer">
