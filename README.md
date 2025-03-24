@@ -5,7 +5,7 @@ Welcome to the **Armed Detective Agency Landing Page**! This project is a themed
 ---
 
 ## **Preview**
-![Preview of the Landing Page](preview.jpg) 
+![Preview of the Landing Page](./preview.png) 
 
 ---
 
